@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener might not trigger if the user's session is invalidated due to a network issue or server-side changes that the client isn't immediately aware of. This leads to situations where the user appears to be authenticated in the app, even after their session has expired on the server.
